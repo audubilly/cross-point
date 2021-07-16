@@ -42,6 +42,7 @@ public class TokenSenderImpl implements TokenSender {
                 );
             }
         }catch (ApiException apiException){
+            apiException.printStackTrace();
             throw new TokenException(apiException.getMessage());
         }
     }
