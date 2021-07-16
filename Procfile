@@ -1,1 +1,1 @@
-web : java -Dspring.profiles.active=default -Dserver.port=$PORT -jar target/-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -jar target/miniproject-0.0.1-SNAPSHOT.jar
